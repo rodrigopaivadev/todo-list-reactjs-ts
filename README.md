@@ -2,12 +2,10 @@
 
 <img src="./public/capa-readme-todo-list.svg">
 
-Neste desafio foi utilizado os conceitos básicos do React, foi desenvolvido do zero uma simples lista de tarefas com as opções de criar, marcar com lido e apagar um item da lista.
+Projeto feito com os conceitos básicos do React. Uma lista de tarefas desenvolvida do zero com as opções de criar, marcar como lido e apagar os itens da lista.
 
 ### Foi utilizado
 
 * Vite
 * CSS Modules
 * Typescript
-
-<br />
