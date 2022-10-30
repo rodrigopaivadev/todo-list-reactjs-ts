@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.form input {
+  border: 0;
+  height: 54px;
+  width: 39.875rem;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.form input:focus {
+  outline: none;
+  border: 1px solid var(--purple-dark);
+}
+
+.form button {
+  outline: none;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: 700;
+  width: 5.625rem;
+  border: 0;
+  border-radius: 8px;
+  line-height: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.form button:hover {
+  background: var(--blue);
+}

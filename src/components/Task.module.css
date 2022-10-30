@@ -1,0 +1,62 @@
+.task {
+  height: 4.5rem;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.task + .task {
+  margin-top: 0.75rem;
+}
+
+.task span {
+  width: 100%;
+  Line-height: 19.6px;
+}
+
+.task button {
+  outline: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.taskChecked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+  Line-height: 19.6px;
+}
+
+.check {
+  color: var(--blue);
+}
+
+.check:hover {
+  color: var(--blue-dark);
+}
+
+.checked {
+  color: var(--purple-dark);
+}
+
+.checked:hover {
+  color: var(--purple);
+}
+
+.trash {
+  color: var(--gray-300);
+}
+
+.trash:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  border-radius: 4px;
+}
